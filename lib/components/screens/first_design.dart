@@ -5,11 +5,7 @@ class FirstDesign extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('First Design - Israel Trujillo Dominguez'),
-      ),
-      body: Column(
+    return Column(
         children: [
           Container(
             color: const Color.fromARGB(255, 140, 38, 183),
@@ -43,8 +39,7 @@ class FirstDesign extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
+      );
   }
 }
 
