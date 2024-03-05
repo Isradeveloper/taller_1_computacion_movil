@@ -11,19 +11,19 @@ class SecondDesign extends StatelessWidget {
           children: [
             PositionedBox(
               color: Colors.deepPurple,
-              heigth: 240,
+              heigth: 200,
               text: "Hola 1",
-              top: 210,
+              top: 140,
             ),
             PositionedBox(
               color: Colors.green,
-              heigth: 210,
+              heigth: 180,
               text: "Hola 2",
-              top: 100,
+              top: 50,
             ),
             PositionedBox(
               color: Colors.red,
-              heigth: 180,
+              heigth: 130,
               text: "Hola 3",
               top: 0,
             ),
@@ -60,7 +60,7 @@ class PositionedBox extends StatelessWidget {
         child: Center(
             child: Text(
           text,
-          style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w100),
+          style: const TextStyle(fontSize: 20, fontWeight: FontWeight.normal),
         )),
       ),
     );
